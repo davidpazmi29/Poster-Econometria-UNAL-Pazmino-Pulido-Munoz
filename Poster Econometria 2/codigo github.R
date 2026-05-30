@@ -1,6 +1,6 @@
 
 
-mis_paquetes <- c("tidyverse", "fs", "tsibble", "feasts", "fable", "ggtime","tseries","forecast" )
+mis_paquetes <- c("tidyverse", "fs", "tsibble", "feasts", "fable", "ggtime","tseries","forecast","FinTS")
 
 
 paquetes_faltantes <- mis_paquetes[!(mis_paquetes %in% installed.packages()[,"Package"])]

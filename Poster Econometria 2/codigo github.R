@@ -1,3 +1,14 @@
+
+
+mis_paquetes <- c("tidyverse", "fs", "tsibble", "feasts", "fable", "ggtime","tseries","forecast" )
+
+
+paquetes_faltantes <- mis_paquetes[!(mis_paquetes %in% installed.packages()[,"Package"])]
+
+
+if(length(paquetes_faltantes)) {
+  install.packages(paquetes_faltantes)
+}
 # 1. CARGA DE LIBRERÍAS
 library(tidyverse) 
 library(fs)       

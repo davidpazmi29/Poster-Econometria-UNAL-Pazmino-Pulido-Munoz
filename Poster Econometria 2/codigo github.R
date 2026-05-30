@@ -18,6 +18,7 @@ library(feasts)
 library(ggtime)
 library(tseries)
 library(forecast)
+library(FinTS)
 
 # 2. DEFINIR RUTA RELATIVA
 ruta_csv <- "Base_de_datos_elic.csv"

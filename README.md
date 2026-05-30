@@ -1,4 +1,4 @@
-# Modelación SARIMA - Licencias de Construcción en Bogotá
+# Modelación ARIMA - Licencias de Construcción en Bogotá
 Poster de Econometría II.
 
 David Santiago Pazmiño Cortés | Juliana Pulido Gómez | Vanessa Muñoz Cañas
